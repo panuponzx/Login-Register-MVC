@@ -1,0 +1,45 @@
+﻿@model WebApplication_bas.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication_bas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ie6AA6WnKfsJbE8ar5+/7CM8z5K5jcf7Ib" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <div class="bg-gradient mb-4">
+            Welcome back! Please login to your account.
+        </div>
+        <form asp-controller="Login" asp-action="Login" method="post">
+            <div class="form-group">
+                <label asp-for="Email">Email address</label>
+                <input asp-for="Email" class="form-control" placeholder="Enter email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" class="form-control" placeholder="Password" type="password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+
+    <!-- Use the minified version of Bootstrap JS without Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha384-kaAKmx9HR6srsuYsQH8k7FN2zOl4YzHRmnHpG4dK46E++Q2Hg/iG/tyRhdOU6L11" crossorigin="anonymous"></script>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
