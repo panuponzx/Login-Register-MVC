@@ -20,7 +20,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "Login",
+    name: "defult",
     pattern: "{controller=Home}/{action=index}/{id?}");
 
 app.Run();

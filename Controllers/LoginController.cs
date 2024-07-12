@@ -3,12 +3,7 @@ using WebApplication_bas.Models;
 
 public class LoginController : Controller
 {
-    public IActionResult Login()
-    {
-        return View();
-    }
-
-    [HttpPost]
+    [HttpPost("/Login")]
     [Route("/Login")]
     public IActionResult Login(LoginViewModel model)
     {

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebApplication-bas.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

@@ -28,3 +28,4 @@ C:\Users\Lenovo\source\repos\WebApplication-bas\WebApplication-bas\obj\Debug\net
 C:\Users\Lenovo\source\repos\WebApplication-bas\WebApplication-bas\obj\Debug\net7.0\WebApplication-bas.pdb
 C:\Users\Lenovo\source\repos\WebApplication-bas\WebApplication-bas\obj\Debug\net7.0\WebApplication-bas.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\WebApplication-bas\WebApplication-bas\obj\Debug\net7.0\ref\WebApplication-bas.dll
+C:\Users\Lenovo\source\repos\WebApplication-bas\WebApplication-bas\obj\Debug\net7.0\WebApplication-bas.sourcelink.json
