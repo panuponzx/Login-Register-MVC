@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9jf7kKDHM7I=",
+  "dgSpecHash": "1o4Z1AGgC8w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\WebApplication-bas.csproj",
+  "projectFilePath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+    "C:\\Users\\chiro\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
   ],
   "logs": []
 }

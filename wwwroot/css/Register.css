@@ -1,0 +1,115 @@
+﻿/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .register-container:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .register-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+.bg-gradient {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .form-group label {
+        display: block;
+        font-weight: 500;
+        margin-bottom: 5px;
+        color: #bbb;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: border-color 0.3s, background-color 0.3s;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff; /* This ensures the text is white */
+        box-sizing: border-box;
+    }
+
+        .form-group input:focus {
+            border-color: #007bff;
+            background-color: rgba(255, 255, 255, 0.2);
+            outline: none;
+        }
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0056b3, #00408a);
+        transform: translateY(-2px);
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    color: #fff;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        transform: translateY(-2px);
+    }
+
+.text-danger {
+    color: #ff6b6b;
+    font-size: 0.875rem;
+    display: block;
+    margin-top: 5px;
+}

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\WebApplication-bas.csproj": {}
+    "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\WebApplication-bas.csproj": {
+    "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\WebApplication-bas.csproj",
+        "projectUniqueName": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj",
         "projectName": "WebApplication-bas",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\WebApplication-bas.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\WebApplication-bas\\WebApplication-bas\\obj\\",
+        "projectPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj",
+        "packagesPath": "C:\\Users\\chiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
