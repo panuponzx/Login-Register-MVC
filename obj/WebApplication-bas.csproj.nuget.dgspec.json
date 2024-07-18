@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj": {}
+    "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj": {
+    "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj",
+        "projectUniqueName": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj",
         "projectName": "WebApplication-bas",
-        "projectPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\WebApplication-bas.csproj",
+        "projectPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj",
         "packagesPath": "C:\\Users\\chiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone2\\obj\\",
+        "outputPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,23 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.20.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             }
           },
           "imports": [

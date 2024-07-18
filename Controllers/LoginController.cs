@@ -8,7 +8,7 @@ namespace YourNamespace.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            return View();
+            return View("/Views/Login/Login.cshtml");
         }
 
         [HttpPost]
@@ -16,8 +16,10 @@ namespace YourNamespace.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Logic for login
+                // Handle login logic here
+                return RedirectToAction("Index", "Home");
             }
+
             return View(model);
         }
     }
