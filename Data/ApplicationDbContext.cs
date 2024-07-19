@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using YourNamespace.Models;
+using WebApplication_bas.Models;
 
 public class ApplicationDbContext : DbContext
 {

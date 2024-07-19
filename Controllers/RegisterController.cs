@@ -1,32 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging; 
-using YourNamespace.Data;
-using YourNamespace.Models;
+using Microsoft.Extensions.Logging;
+using WebApplication_bas.Data;
+using WebApplication_bas.Models;
 using System.Threading.Tasks;
 
-namespace YourNamespace.Controllers
+namespace WebApplication_bas.Controllers
 {
     public class RegisterController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<RegisterController> _logger;
 
-        public RegisterController(ApplicationDbContext context, ILogger<RegisterController> logger) 
+        public RegisterController(ApplicationDbContext context, ILogger<RegisterController> logger)
         {
             _context = context;
-            _logger = logger; 
+            _logger = logger;
         }
 
         [HttpGet]
-        [Route("Register")]
+        [Route("/Register")]
         public IActionResult Register()
         {
-            _logger.LogInformation("Register page accessed."); 
-            return View("/Views/Login/Register.cshtml");
+            _logger.LogInformation("Register page accessed.");
+            return View();
         }
 
         [HttpPost]
-        [Route("Register")]
+        [Route("/Register")]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
@@ -47,7 +47,7 @@ namespace YourNamespace.Controllers
                     users.Add(user);
                     await _context.SaveChangesAsync();
                     _logger.LogInformation("User saved successfully.");
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Login", "Login");
                 }
                 catch (Exception ex)
                 {

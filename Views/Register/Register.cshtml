@@ -1,4 +1,4 @@
-﻿@model YourNamespace.Models.RegisterViewModel
+﻿@model WebApplication_bas.Models.RegisterViewModel
 
 @{
     ViewData["Title"] = "Register";
@@ -7,7 +7,7 @@
 <div class="register-container">
     <h1>Register</h1>
     <div class="bg-gradient mb-4">Welcome! Please create your account.</div>
-    <form asp-action="Register" method="post">
+    <form asp-action="Register" asp-controller="Register" method="post">
         <div class="form-group">
             <label asp-for="Username"></label>
             <input asp-for="Username" class="form-control" />

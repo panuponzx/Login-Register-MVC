@@ -84,7 +84,7 @@ body {
     transition: background 0.3s, transform 0.3s;
 }
 
-    .btn-primary:hover {
+    .btn-primary:hover .stars {
         background: linear-gradient(135deg, #0056b3, #00408a);
         transform: translateY(-2px);
     }
@@ -93,3 +93,11 @@ body {
     color: #ff6b6b;
     font-size: 0.875rem;
 }
+
+.btn-white {
+    color: #f0f0f0;
+}
+
+    .btn-white:hover {
+        color: #007bff;
+    }

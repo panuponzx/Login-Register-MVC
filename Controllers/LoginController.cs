@@ -1,23 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using YourNamespace.Models;
+using WebApplication_bas.Models;
 
-namespace YourNamespace.Controllers
+namespace WebApplication_bas.Controllers
 {
     public class LoginController : Controller
     {
         [HttpGet]
+        [Route("/Login")]
         public IActionResult Login()
         {
-            return View("/Views/Login/Login.cshtml");
+            return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                // Handle login logic here
-                return RedirectToAction("Index", "Home");
+             
+                return RedirectToAction("Login", "Login");
             }
 
             return View(model);

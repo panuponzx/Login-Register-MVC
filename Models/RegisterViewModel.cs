@@ -1,4 +1,4 @@
-﻿namespace YourNamespace.Models
+﻿namespace WebApplication_bas.Models
 {
     public class RegisterViewModel
     {
