@@ -93,3 +93,13 @@ body {
     color: #ff6b6b;
     font-size: 0.875rem;
 }
+
+
+.btn-white {
+    color: #f0f0f0;
+}
+
+    .btn-white:hover {
+        background-color: #f8f8f800;
+        color: black;
+}

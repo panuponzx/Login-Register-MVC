@@ -1,0 +1,106 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://wallpapers.com/images/hd/4k-minimalist-mountains-9oitratl6gd996za.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 0px;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 2em;
+    margin: 20px 0 10px 0;
+}
+
+.profile-title {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+    .profile-details h2 {
+        margin-top: 0;
+        border-bottom: 2px solid #0072ff;
+        padding-bottom: 5px;
+        color: #0072ff;
+    }
+
+    .profile-details p {
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+    .profile-details .social-icon {
+        display: inline-block;
+        margin-right: 10px;
+        transition: transform 0.3s ease;
+    }
+
+        .profile-details .social-icon img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .profile-details .social-icon:hover {
+            transform: scale(1.1);
+        }
+
+@media (max-width: 768px) {
+    .profile-container {
+        margin: 20px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+    }
+
+    .profile-name {
+        font-size: 1.5em;
+    }
+
+    .profile-title {
+        font-size: 1em;
+    }
+}

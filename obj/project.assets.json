@@ -1083,11 +1083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj",
+      "projectUniqueName": "C:\\Users\\chiro\\source\\repos\\Savv-Clone6\\WebApplication-bas.csproj",
       "projectName": "WebApplication-bas",
-      "projectPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\WebApplication-bas.csproj",
+      "projectPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone6\\WebApplication-bas.csproj",
       "packagesPath": "C:\\Users\\chiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone3\\obj\\",
+      "outputPath": "C:\\Users\\chiro\\source\\repos\\Savv-Clone6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
