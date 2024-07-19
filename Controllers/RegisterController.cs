@@ -42,7 +42,7 @@ namespace YourNamespace.Controllers
                     users.Add(user);
                     await _context.SaveChangesAsync();
                     _logger.LogInformation("User saved successfully.");
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Login", "Login");
                 }
                 catch (Exception ex)
                 {
